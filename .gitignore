@@ -1,0 +1,7 @@
+nv
+*.DS_Store
+*.pyc
+__pycache__
+*.py.swp
+.otp.html.swp
+*.swp
