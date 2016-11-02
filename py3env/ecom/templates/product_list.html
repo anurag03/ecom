@@ -1,0 +1,12 @@
+<html>
+<head><title>Product List</title></head>
+<body>
+{% csrf_token %}
+<ul>
+{% for product in product_list %}
+    <li>{{ product.item_name }}</li>
+	<img src="{{ product.item_image1.url }}" width="200px"/>
+{% endfor %}
+</ul>
+</body>
+</html>
