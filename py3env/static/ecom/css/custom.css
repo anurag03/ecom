@@ -1,0 +1,29 @@
+.navbar-custom {
+    background-color: #344152;
+    color:#ffffff;
+    border-radius:0;
+}
+.navbar-custom .navbar-nav > li > a {
+    color:#ffffff;
+}
+
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:focus {
+    color: #FFFFFF;
+    background-color: #FF6600;
+}
+
+.navbar-custom .navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus {
+    background-color: #344152;
+    color: #FFFFFF;
+}
+
+.navbar-space {
+    background-color:#F1F1F1;
+    color:#ffffff;
+    border-radius:0;
+}
+
+.header-color li,{
+    color: #FFFFFF !important;
+    background-color: 
+}

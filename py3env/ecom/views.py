@@ -5,4 +5,4 @@ from ecom.models import ItemInfo
 
 def product_list(request):
     product_list = ItemInfo.objects.all()
-    return render(request, 'product_list.html', {'product_list':product_list})
+    return render(request, 'home.html', {'product_list':product_list})
