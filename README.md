@@ -1,4 +1,4 @@
-# ecom
+# Ecom
 This folder contain code for small ecommerce website.
 
 This Application aims to create a djnago package for creation of small ecommerce website.
